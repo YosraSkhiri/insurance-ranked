@@ -1,0 +1,172 @@
+{
+  "insurance-companies": [
+    {
+      "name": "Pumpkin",
+      "logo": "pumpkinLogo",
+      "link": "https://hello.pumpkin.care/compare-insurance-ranked/",
+      "rank": 1,
+      "rating": {
+        "score": "4.9",
+        "reviews-number": "771"
+      },
+      "pet-age-range": "8 weeks - No max age",
+      "multi-pet-discount": true,
+      "vet-exam-required": false,
+      "key-features": [
+        "Voted “Best for Comprehensive Coverage” by Business Insider (2020)",
+        "90% reimbursement rate (not “UP TO 90%”)",
+        "10% multi-pet discount for each additional pet",
+        "Always a 14 day waiting period",
+        "No breed or upper age limits"
+      ]
+    },
+    {
+      "name": "ManyPets",
+      "logo": "manypetsLogo",
+      "link": "https://manypets.com/",
+      "rank": 2,
+      "rating": {
+        "score": "4.8",
+        "reviews-number": "1,592"
+      },
+      "pet-age-range": "8 weeks - 14 years",
+      "multi-pet-discount": false,
+      "vet-exam-required": false,
+      "key-features": [
+        "Get up to 100% back on vet bills, including exam fees",
+        "Affordable prices starting at $20/month for dogs, $15/month for cats",
+        "Optional wellness plan to save on routine and preventive care",
+        "Fast and paperless online claims process"
+      ]
+    },
+    {
+      "name": "Spot",
+      "logo": "spotPetLogo",
+      "link": "https://spotpetins.com/pet-insurance-quote",
+      "rank": 3,
+      "rating": {
+        "score": "4.8",
+        "reviews-number": "390"
+      },
+      "pet-age-range": "8 weeks - No max age",
+      "multi-pet-discount": false,
+      "vet-exam-required": false,
+      "key-features": [
+        "Free pet insurance quote in 30 seconds",
+        "Best-in-breed insurance coverage for accidents and illnesses",
+        "Exclusive training content from world-renowned trainers",
+        "Offers 24/7 veterinary helpline for emergencies and health questions",
+        "Flexible plans with up to 90% reimbursement on vet bills"
+      ]
+    },
+    {
+      "name": "Prudent Pet",
+      "logo": "prudentPetLogo",
+      "link": "https://app.prudentpet.com/",
+      "rank": 4,
+      "rating": {
+        "score": "4.7",
+        "reviews-number": "292"
+      },
+      "pet-age-range": "8 weeks - No max age",
+      "multi-pet-discount": true,
+      "vet-exam-required": false,
+      "key-features": [
+        "Rated the #1 pet insurance on Trustpilot",
+        "Unlimited 24/7 live vet chat",
+        "85% of claims reimbursed within 5 days"
+      ]
+    },
+    {
+      "name": "Embrace",
+      "logo": "embraceLogo",
+      "link": "https://www.embracepetinsurance.com/",
+      "rank": 5,
+      "rating": {
+        "score": "4.7",
+        "reviews-number": "394"
+      },
+      "pet-age-range": "6 weeks - 14 years",
+      "multi-pet-discount": true,
+      "vet-exam-required": true,
+      "key-features": [
+        "Get up to 90% back on bills using any vet",
+        "Industry's best diminishing deductible feature",
+        "30-day money-back guarantee",
+        "Policies start at less than $1/day"
+      ]
+    },
+    {
+      "name": "Lemonade Pet",
+      "logo": "lemonadeLogo",
+      "link": "https://www.lemonade.com/pet",
+      "rank": 6,
+      "rating": {
+        "score": "4.7",
+        "reviews-number": "2,217"
+      },
+      "pet-age-range": "8 weeks - No max age",
+      "multi-pet-discount": true,
+      "vet-exam-required": true,
+      "key-features": [
+        "Coverage from America's favorite insurance company, starting at $10/month",
+        "Super fast claim reimbursement and everything else (powered by AI!)",
+        "Optional wellness package to help keep your pet healthy"
+      ]
+    },
+    {
+      "name": "Healthy Paws",
+      "logo": "healthyPawsLogo",
+      "link": "https://www.healthypawspetinsurance.com/",
+      "rank": 7,
+      "rating": {
+        "score": "4.6",
+        "reviews-number": "1,036"
+      },
+      "pet-age-range": "8 weeks - 14 years",
+      "multi-pet-discount": false,
+      "vet-exam-required": true,
+      "key-features": [
+        "Over 570,000 pets insured",
+        "Over 1 million claims covered in the last year",
+        "A+ BBB - Accredited with 97 out of 100 rating"
+      ]
+    },
+    {
+      "name": "ASPCA",
+      "logo": "aspcaPetLogo",
+      "link": "https://www.aspcapetinsurance.com/top_plans#/start",
+      "rank": 8,
+      "rating": {
+        "score": "4.6",
+        "reviews-number": "2,198"
+      },
+      "pet-age-range": "8 weeks - No max age",
+      "multi-pet-discount": true,
+      "vet-exam-required": false,
+      "key-features": [
+        "Affordable plan options including accident-only and preventive care coverage",
+        "No risk with 30-day 100% money back guarantee",
+        "Visit any vet in the US (even specialists)"
+      ]
+    },
+    {
+      "name": "Pawp",
+      "logo": "pawpLogo",
+      "link": "https://pawp.com/emergency-welcome/",
+      "rank": 9,
+      "rating": {
+        "score": "4.7",
+        "reviews-number": "153"
+      },
+      "pet-age-range": "No min - No max age",
+      "multi-pet-discount": true,
+      "vet-exam-required": false,
+      "key-features": [
+        "Covers 100 percent of any emergency up to $3,000",
+        "Protect up to 6 pets for only $24/month",
+        "Offers 24/7 instant video chatting with licensed vets"
+      ]
+    }
+  ]
+}

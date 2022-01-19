@@ -1,0 +1,275 @@
+.companyItemContainer {
+  position: relative;
+  display: flex;
+  gap: 1.2rem;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(242, 243, 244);
+  margin-top: 1.125rem;
+}
+
+.firstPlaceLabelContainer {
+  position: absolute;
+  top: 9px;
+  left: -5px;
+  display: flex;
+}
+
+.rankNumber {
+  width: 28px;
+  height: 28px;
+  background-color: rgb(29, 140, 224);
+  border: 1px solid rgb(29, 140, 224);
+  border-radius: 3px;
+  box-shadow: lightgrey 1px 3px 3px;
+  z-index: inherit;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.rank1stTxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  color: rgb(255,255,255);
+  height: 28px;
+  border-radius: 2px 0px 0px 2px;
+  background-color: rgb(30, 140, 224);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  box-shadow: lightgrey 1px 3px 3px;
+}
+
+.rank1stTxt::after {
+  position: relative;
+  width: 22px;
+  left: 5px;
+  content: "";
+  border-right: 15px solid white;
+  border-top: 14px solid rgb(30, 140, 224);
+  border-bottom: 14px solid rgb(30, 140, 224);
+}
+
+.companyItemIntro {
+  display: flex;
+  gap: 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.companyLogoLink {
+  display: block;
+  max-width: 160px;
+}
+
+.companyLogo {
+  display: block;
+}
+
+.ratingInfo {
+  display: flex;
+  align-items: flex-end;
+  gap: .4rem;
+  margin-bottom: 3px;
+}
+
+.ratingValue {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  color: rgb(20, 168, 42);
+}
+
+.ratingReviewsNumber {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.insuranceDetails {
+  width: 100%;
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+  flex-basis: 35%;
+}
+
+.insuranceDetail {
+  flex: 1;
+}
+
+.insuranceDetailTitle {
+  font-weight: 600;
+  font-size: 11px;
+  color: rgb(120, 126, 129);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.insuranceDetailTxt {
+  font-weight: 600;
+  color: rgb(35, 34, 39);
+  text-align: center;
+}
+
+.companyOverviewList {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.companyOverviewList > li {
+  padding-left: 25px;
+  background-image: url("../../../images/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: left top 5px;
+  margin-bottom: 6px;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+}
+
+.companyListItemCTAContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: .5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+.companyListItemCTA {
+  flex: 1;
+  height: 46px;
+  line-height: 1;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: rgb(29, 140, 224);
+  justify-content: space-evenly;
+  width: 140px;
+}
+
+.companyListItemCTA::after {
+  content: "";
+  background-image: url("../../../images/dollar-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 23px;
+  height: 23px;
+}
+
+.companyListItemLink {
+  flex: 1;
+  justify-self: center;
+  width: fit-content;
+  text-align: center;
+  color: rgb(29, 140, 224);
+  font-size: 14px;
+  display: table;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media (min-width: 993px) {
+  .companyItemContainer {
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .companyItemIntroWrapper {
+    display: flex;
+    flex-basis: 26%;
+  }
+
+  .insuranceDetailsWrapper {
+    flex-basis: 32%;
+  }
+
+  .companyItemIntro {
+    margin: auto;
+    flex-direction: column;
+    justify-content: unset;
+    gap: 1.25rem;
+    min-width: 180px;
+  }
+
+  .insuranceDetailTitle {
+    display: none;
+  }
+
+  .companyOverviewList {
+    flex-basis: 26%;
+  }
+
+  .companyListItemCTAContainer {
+    flex-direction: column !important;
+    width: fit-content;
+    align-items: center;
+    align-self: right;
+    flex-basis: 22%;
+    min-height: 100px;
+  }
+
+  .companyListItemCTAContainer > * {
+    flex: 1;
+  }
+}
+
+@media (max-width: 1200px) {
+  .companyItemIntroWrapper {
+    display: flex;
+    flex-basis: 38%;
+  }
+
+  .insuranceDetailsWrapper {
+    flex-basis: 52%;
+  }
+
+  .companyOverviewList {
+    flex-basis: 26%;
+  }
+}
+
+@media (max-width: 992px) {
+  .companyListItemCTAContainer {
+    justify-content: space-evenly;
+  }
+
+  .companyListItemCTA, .companyListItemLink {
+    flex: none;
+  }
+
+  .companyItemContainer {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .companyListItemCTAContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+  }
+}

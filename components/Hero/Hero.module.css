@@ -1,0 +1,109 @@
+.hero {
+  margin-top: 68px;
+  background: #e7ecfb;
+}
+
+.heroSection {
+  max-width: 75%;
+}
+
+.heroTitle {
+  font-family: 'DM Serif Display', 'Times New Roman', Times, serif;
+  color: #000a25;
+  font-weight: 600;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.heroTxt {
+  max-width: 680px;
+  margin-bottom: 10px;
+}
+
+.heroLastUpdated {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #535b62;
+}
+
+.heroDropdown {
+  position: relative;
+  max-width: 375px;
+  color: #535b62;
+  bottom: 10px;
+  padding-top: 10px;
+}
+
+.heroDropdownToggle {
+  background: none;
+  font-size: 13px;
+  color: #535b62;
+  cursor: pointer;
+  border-bottom: 1px solid #535b62;
+}
+
+.heroDropdownMenu {
+  display: none;
+  border: 1px solid rgba(36,48,104,.7);
+  padding: 12px;
+  box-shadow: 5px 5px 5px #6e767d;
+  width: 350px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.show {
+  display: block;
+}
+
+.heroDropdownMenuHeading4 {
+  font-family: 'DM Serif Display', 'Times New Roman', Times, serif;
+  font-size: 16px;
+  display: inline-block;
+  color: #202a5d;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin-bottom: 0.5rem
+}
+
+.heroDropdownCloseBtn {
+  display: block;
+  padding: 4px;
+  float: right;
+  cursor: pointer;
+}
+
+.heroDropdownTxt {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.4;
+  color: #535b62;
+  margin-bottom: 0.5rem;
+}
+
+.heroDropdownMenuHeading5 {
+  font-family: 'DM Serif Display', 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .heroSection {
+    margin-top: 0.3rem;
+  }
+}
