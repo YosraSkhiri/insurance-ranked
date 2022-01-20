@@ -311,7 +311,7 @@ const ContentSection = () => {
             </p>
             <p className={styles.txt}>
               Our choice for the best pet insurance plan is
-              <Link href="https://hello.pumpkin.care/compare-insurance-ranked/"><a className={styles.link} target="_blank">Pumpkin Pet Insurance</a></Link>
+              <Link href="https://hello.pumpkin.care/compare-insurance-ranked/"><a className={styles.link} target="_blank"> Pumpkin Pet Insurance </a></Link>
               because it covers all breeds 8 weeks and up with no
               upper age limits. It includes discounts for multiple pets and offers optional preventative care for comprehensive coverage.
               You can choose your own vet and receive up to 90% reimbursement on covered vet bills without sneaky add-on fees,
