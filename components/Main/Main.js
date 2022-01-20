@@ -18,6 +18,16 @@ const Main = () => {
   return (
     <div className="container">
       <div className={styles.mainWrapper}>
+        {
+          sortedCompanies[0] ? (
+            <div className={styles.featuredCompanyContainer}>
+              <div className={styles.featuredCompanyLabel}>Our #1 Pet Insurance Choice for 2022</div>
+              <div className={styles.featuredCompanyWrapper}>
+                <CompanyItem company={sortedCompanies[0]} />
+              </div>
+            </div>
+          ) : null
+        }
         <ul className={styles.companyList}>
           <li className={styles.companyListHeadContainer}>
             <ul className={styles.companyListHead}>

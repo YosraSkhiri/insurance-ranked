@@ -107,3 +107,13 @@
     margin-top: 0.3rem;
   }
 }
+
+@media (max-width: 400px) {
+  .heroDropdownMenu {
+    width: 280px;
+  }
+
+  .heroDropdownMenuHeading4 {
+    font-size: 14px;
+  }
+}

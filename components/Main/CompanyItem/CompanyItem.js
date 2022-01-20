@@ -11,6 +11,9 @@ import lemonadeLogo from "../../../images/providers-logos/lemonade-logo.png";
 import healthyPawsLogo from "../../../images/providers-logos/healthy-paws-logo.png";
 import aspcaPetLogo from "../../../images/providers-logos/aspca-pet-logo.png";
 import pawpLogo from "../../../images/providers-logos/pawp-logo.png";
+import petsBestLogo from "../../../images/providers-logos/petsbest-logo.png";
+import petFirstLogo from "../../../images/providers-logos/petfirst-logo.png";
+import petPlanLogo from "../../../images/providers-logos/petplan-logo.png";
 
 const insuranceCompaniesLogos = {
   pumpkinLogo,
@@ -22,6 +25,9 @@ const insuranceCompaniesLogos = {
   healthyPawsLogo,
   aspcaPetLogo,
   pawpLogo,
+  petsBestLogo,
+  petFirstLogo,
+  petPlanLogo,
 };
 
 const CompanyItem = ({company}) => {
@@ -52,7 +58,7 @@ const CompanyItem = ({company}) => {
           <div>
             <div className={styles.ratingInfo}>
               <div className={styles.ratingValue}>{company.rating.score}</div>
-              <Stars />
+              <Stars ratingScore={company.rating.score} />
             </div>
             <div className={styles.ratingReviewsNumber}>{company.rating["reviews-number"]} Reviews</div>
           </div>

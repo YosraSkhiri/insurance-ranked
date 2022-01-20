@@ -39,6 +39,25 @@
   padding-left: 33px;
 }
 
+.featuredCompanyContainer {
+  border-style: solid;
+  border-color: rgb(127,156,245);
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+}
+
+.featuredCompanyLabel {
+  text-align: center;
+  background-color: rgb(235,244,255);
+  line-height: 2rem;
+  font-weight: 700;
+  color: rgba(0,0,0);
+}
+
+.featuredCompanyWrapper {
+  margin: 0 .5rem;
+}
+
 @media (min-width: 1200px) {
   .mainWrapper {
     max-width: 1170px!important;

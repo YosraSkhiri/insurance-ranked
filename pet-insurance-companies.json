@@ -167,6 +167,61 @@
         "Protect up to 6 pets for only $24/month",
         "Offers 24/7 instant video chatting with licensed vets"
       ]
+    },
+    {
+      "name": "Pets Best",
+      "logo": "petsBestLogo",
+      "link": "https://www.petsbest.com/",
+      "rank": 10,
+      "rating": {
+        "score": "3.9",
+        "reviews-number": "757"
+      },
+      "pet-age-range": "7 weeks - No max age",
+      "multi-pet-discount": true,
+      "vet-exam-required": false,
+      "key-features": [
+        "No upper age limit on coverage",
+        "Direct-to-pay veterinarian option",
+        "Online claim submission"
+      ]
+    },
+    {
+      "name": "Pet First",
+      "logo": "petFirstLogo",
+      "link": "https://quote.metlifepetinsurance.com/",
+      "rank": 11,
+      "rating": {
+        "score": "4.1",
+        "reviews-number": "472"
+      },
+      "pet-age-range": "8 weeks - No max age",
+      "multi-pet-discount": true,
+      "vet-exam-required": false,
+      "key-features": [
+        "Covers any vet or animal hospital in the USA",
+        "No lifetime or per-incident limit",
+        "Partners with shelters and adoption agencies around the country",
+        "No age limits - pets ages 8 weeks and older can enroll"
+      ]
+    },
+    {
+      "name": "Petplan",
+      "logo": "petPlanLogo",
+      "link": "https://www.gopetplan.com/",
+      "rank": 12,
+      "rating": {
+        "score": "3.6",
+        "reviews-number": "116"
+      },
+      "pet-age-range": "6 weeks - No max age",
+      "multi-pet-discount": false,
+      "vet-exam-required": true,
+      "key-features": [
+        "Provides coverage for veterinary exams related to illnesses and injuries",
+        "Claims often processed in 5 to 7 days",
+        "Pet owners can choose holistic and homeopathic treatment and have it covered"
+      ]
     }
   ]
 }

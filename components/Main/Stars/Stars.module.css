@@ -1,0 +1,12 @@
+.starsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  display: block;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
+}
